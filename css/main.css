@@ -40,10 +40,15 @@ nav a {
   text-decoration: none;
 }
 
+nav a:hover {
+  color: #0074d9;
+}
+
 header img {
   width: 2rem;
 }
 
 header p {
   justify-content: center;
+  font-size: 1.125rem;
 }
