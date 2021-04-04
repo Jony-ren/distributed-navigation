@@ -1,0 +1,49 @@
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e2e2e2;
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header h1 {
+  margin: 0rem;
+  padding: 1rem 0;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  font-size: 1.125rem;
+}
+
+nav a {
+  margin: 1rem;
+  color: #0074d9;
+  text-decoration: none;
+}
+
+header img {
+  width: 2rem;
+}
+
+header p {
+  justify-content: center;
+}
